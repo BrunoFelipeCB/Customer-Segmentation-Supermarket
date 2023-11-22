@@ -53,7 +53,7 @@ This repository was made to explain the project of **[Kaggle](https://www.kaggle
 
 | Spending Score (1-100) | Annual Income (k$)    | Age      | Cluster |
 | -----------------------| --------------------- | -------- | ------- |
-| High                   | High                  | Moderate | 0       |
+| Moderate               | Moderate              | High     | 0       |
 | High                   | Moderate              | Young    | 1       |
 | Low                    | High                  | Moderate | 2       |
 | High                   | High                  | Moderate | 3       |
