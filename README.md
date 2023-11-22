@@ -8,12 +8,12 @@ This repository was made to explain the project of **[Kaggle](https://www.kaggle
 
 ## Main libraries used:
 - Pandas, Matplotlib, Sklearn and Seaborn.
+## Original dataset of the project
+- [Mall_Customers.csv](https://github.com/BrunoFelipeCB/Customer-Segmentation-Supermarket/blob/main/Mall_Customers.csv)
 ## You can find me at:
 &nbsp;<a href="https://www.linkedin.com/in/brunofcb/">
   <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white">
 </a>&nbsp;
-## Original dataset of the project
-- [Mall_Customers.csv](https://github.com/BrunoFelipeCB/Customer-Segmentation-Supermarket/blob/main/Mall_Customers.csv)
 ## [Step 1: Data Segmentation Project](https://github.com/BrunoFelipeCB/Customer-Segmentation-Supermarket/blob/main/1.Data%20Segmentation%20Project.ipynb)
 - In the first notebook, I imported the original dataset and performed checks to assess the data integrity.
 - I imported the [ydata_profiling](https://github.com/ydataai/ydata-profiling) library to assist me in conducting analyses, generating a [report](https://github.com/BrunoFelipeCB/Customer-Segmentation-Supermarket/blob/main/eda_supermarket.html).
