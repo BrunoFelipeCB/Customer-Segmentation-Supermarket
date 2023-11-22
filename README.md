@@ -1,10 +1,10 @@
 # Customer-Segmentation-Supermarket
 This repository was made to explain the project of **[Kaggle](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python/data)**:
 
-**The comments in the codes are in PT-BR**
+**The comments in the codes are in PT-BR**.
 ## Objectives:
 - Study of customer segmentation for a supermarket for a better understanding of customers.
-![pca_3d](imagens/pca_3d)
+ ![pca_3d](imagens/pca_3d.png)
 
 ## Main libraries used:
 - Pandas, Matplotlib, Sklearn and Seaborn.
@@ -40,17 +40,17 @@ This repository was made to explain the project of **[Kaggle](https://www.kaggle
 
 ![boxplot](imagens/boxplot.png)
 
-Cluster 0 consists of older individuals with intermediate salaries and scores.
-Cluster 1 consists of younger individuals with intermediate salaries and higher scores.
-Cluster 2 consists of wealthier individuals with lower scores.
-Cluster 3 consists of middle-aged individuals with high salaries and high scores.
+- Cluster 0 consists of older individuals with intermediate salaries and scores.
+- Cluster 1 consists of younger individuals with intermediate salaries and higher scores.
+- Cluster 2 consists of wealthier individuals with lower scores.
+- Cluster 3 consists of middle-aged individuals with high salaries and high scores.
 
-Transformando os pontos acima em uma tabela:
+#### Translating the points above into a table:
 
-| Pontuação de Gastos | Renda    | Idade    | Cluster |
-| ------------------- | -------- | -------- | ------- |
-| High                | High     | Moderate | 0       |
-| High                | Moderate | Young    | 1       |
-| Low                 | High     | Moderate | 2       |
-| High                | High     | Moderate | 3       |
+| Spending Score (1-100) | Annual Income (k$)    | Age      | Cluster |
+| -----------------------| --------------------- | -------- | ------- |
+| High                   | High                  | Moderate | 0       |
+| High                   | Moderate              | Young    | 1       |
+| Low                    | High                  | Moderate | 2       |
+| High                   | High                  | Moderate | 3       |
 
