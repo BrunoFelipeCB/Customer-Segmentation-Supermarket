@@ -13,14 +13,14 @@ This repository was made to explain the project of **[Kaggle](https://www.kaggle
 ## [Step 1: Data Segmentation Project](https://github.com/BrunoFelipeCB/Customer-Segmentation-Supermarket/blob/main/1.Data%20Segmentation%20Project.ipynb)
 - In the first notebook, I imported the original dataset and performed checks to assess the data integrity.
 - I imported the [ydata_profiling](https://github.com/ydataai/ydata-profiling) library to assist me in conducting analyses, generating a [report](https://github.com/BrunoFelipeCB/Customer-Segmentation-Supermarket/blob/main/eda_supermarket.html).
-- Exclui a coluna 'CustomerID' que não poderia nos ajudar na segmentação de clientes.
+- I deleted the 'CustomerID' column as it would not help us in customer segmentation.
 - We generated 2 graphs for comparison with the report, and then exported the dataset named 'Mall_Customers_no_CustomerID.csv'.
 ## [Step 2: Analysis_without_preprocessing](https://github.com/BrunoFelipeCB/Customer-Segmentation-Supermarket/blob/main/2.%20Analysis_without_preprocessing.ipynb)
 - In the second notebook, I imported the 'Mall_Customers_no_CustomerID.csv' dataset, and initially, I will analyze the dataset without preprocessing. I am doing this solely for personal comparisons with the report and future function references.
 - Using the **elbow method**, we determined that a suitable number of clusters for this scenario would be 6.
 - Using 6 clusters and saving the data with the help of Joblib, we continued our analysis and generated the pairplot again.
 - With the assistance of the boxplot, I managed to segment the clusters based on their Age, Annual Income (k$), and Spending Score (1-100), achieving an initial clustering.
-- Gerei o mesmo boxplot, porém fazendo a diferenciação por Gender para verificar se há grandes diferenças entre generos.
+- I generated the same boxplot, but this time differentiated by gender to check if there are significant differences between genders.
 - I created a function called 'visualizar_cluster' and generated a 3D plot with points and centroids.
 - Finally, the "visualizar_cluster()" function and the Elbow and Silhouette plots will be exported to a '.py' file for easier reference when used later.
 ## [Step 3: Pipeline](https://github.com/BrunoFelipeCB/Customer-Segmentation-Supermarket/blob/main/3.Pipeline.ipynb)
