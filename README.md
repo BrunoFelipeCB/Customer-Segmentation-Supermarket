@@ -15,7 +15,7 @@ This repository was made to explain the project of **[Kaggle](https://www.kaggle
 - I imported the [ydata_profiling](https://github.com/ydataai/ydata-profiling) library to assist me in conducting analyses, generating a [report](https://github.com/BrunoFelipeCB/Customer-Segmentation-Supermarket/blob/main/eda_supermarket.html).
 - I deleted the 'CustomerID' column as it would not help us in customer segmentation.
 - We generated 2 graphs for comparison with the report, and then exported the dataset named 'Mall_Customers_no_CustomerID.csv'.
-## [Step 2: Analysis_without_preprocessing](https://github.com/BrunoFelipeCB/Customer-Segmentation-Supermarket/blob/main/2.%20Analysis_without_preprocessing.ipynb)
+## [Step 2: Analysis without preprocessing](https://github.com/BrunoFelipeCB/Customer-Segmentation-Supermarket/blob/main/2.%20Analysis_without_preprocessing.ipynb)
 - In the second notebook, I imported the 'Mall_Customers_no_CustomerID.csv' dataset, and initially, I will analyze the dataset without preprocessing. I am doing this solely for personal comparisons with the report and future function references.
 - Using the **elbow method**, we determined that a suitable number of clusters for this scenario would be 6.
 - Using 6 clusters and saving the data with the help of Joblib, we continued our analysis and generated the pairplot again.
@@ -28,7 +28,7 @@ This repository was made to explain the project of **[Kaggle](https://www.kaggle
 - After the preprocessing is done, importing the  [Funcoes_auxiliares](https://github.com/BrunoFelipeCB/Customer-Segmentation-Supermarket/blob/main/Funcoes_auxiliares.py) file brought in 'graficos_elbow_silhouette' to use the elbow method again, and this time, I believe it's better to use 'n_clusters=4'.
 - Using the Pipeline process and again saving the data with Joblib, we found some different clusters.
 - Again, with the help of the boxplot, we managed to categorize the clusters.
-## [Step 4: Pipeline_PCA.](https://github.com/BrunoFelipeCB/Customer-Segmentation-Supermarket/blob/main/4.Pipeline_PCA.ipynb)
+## [Step 4: Pipeline PCA.](https://github.com/BrunoFelipeCB/Customer-Segmentation-Supermarket/blob/main/4.Pipeline_PCA.ipynb)
 - In the fourth notebook, I imported the 'Mall_Customers_no_CustomerID.csv' dataset again and will preprocess the dataset, this time using PCA.
 - Following the same step-by-step process from  [Step 3](https://github.com/BrunoFelipeCB/Customer-Segmentation-Supermarket/blob/main/3.Pipeline.ipynb) , we managed to generate a 3D plot using the relevant columns to be addressed, and we successfully separated the central clusters in the best possible way.
 
